@@ -285,3 +285,114 @@ body { font-family: Helvetica, Arial, sans-serif; }
     font-size: 10px;
     color: #979797;
 }
+
+
+
+/* Four Columns */
+.one-fourth,
+.one-fourth-last {
+    position: relative;
+    float: left;
+    width: 185px;
+    margin-right: 43px;
+}
+ 
+.one-fourth-last { margin: 0; }
+
+#featured-movies { padding: 35px 0; }
+ 
+/* Featured Movies Slider */
+#fetured-movies-slider-wrapper {
+    width: 870px;
+    height: 260px;
+    overflow: hidden;
+}
+ 
+#featured-movies .mm-prev-button,
+#featured-movies .mm-next-button {
+    position: absolute;
+    display: block;
+    width: 9px;
+    height: 12px;
+    top: 41px;
+    left: 180px;
+    background: url(../img/next-prev-2.png) no-repeat 0 0;
+}
+ 
+#featured-movies .mm-next-button {
+    left: 200px;
+    background-position: -9px 0;
+}
+ 
+#featured-movies .see-all {
+    position: absolute;
+    display: block;
+    top: 40px;
+    right: 0;
+    padding-left: 20px;
+    line-height: 14px;
+    background: url(../img/arrow.png) no-repeat left center;
+}
+
+@font-face {
+    font-family: 'PTSansNarrowBold';
+    src: url('fonts/PTN77F-webfont.eot');
+    src: url('fonts/PTN77F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTN77F-webfont.woff') format('woff'),
+         url('fonts/PTN77F-webfont.ttf') format('truetype'),
+         url('fonts/PTN77F-webfont.svg#PTSansNarrowBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+/* Featured Movies & Content Wrapper Titles */
+#featured-movies h4,
+#content-wrapper h4 {
+    font-family: 'PTSansNarrowBold', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 26px;
+    color: #999999;
+}
+
+/* Featured Movies Posts Titles */
+#featured-movies h2,
+#featured-movies .see-all {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5293c2;
+}
+ 
+/* Featured Movies Post Paragraph */
+#featured-movies p {
+    font-size: 12px;
+    color: #979797;
+    line-height: 16px;
+}
+
+/* Views & Likes */
+.likes-views { display: block; }
+ 
+.likes-views li {
+    display: block;
+    float: left;
+    padding-right: 25px;
+}
+ 
+.likes-views li a.likes {
+    padding-left: 15px;
+    background: url(../img/likes.png) no-repeat 0 2px;
+}
+ 
+.likes-views li a.views {
+    padding-left: 20px;
+    background: url(../img/views.png) no-repeat 0 2px;
+}
+ 
+.likes-views li a {
+    font-weight: bold;
+    font-size: 11px;
+    color: #979797;
+}
