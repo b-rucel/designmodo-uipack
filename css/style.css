@@ -128,3 +128,160 @@ body{cursor:default}
     outline: none;
     background: transparent url(../img/search-icon.png) no-repeat 0 0;
 }
+
+
+
+
+/* Header Featured Movie Section */
+#header-featured-movie {
+    overflow: hidden;
+    height: 446px;
+}
+ 
+/* Header Featured Movie Cover */
+#header-featured-movie .movie-cover {
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    width: 230px;
+    height: 320px;
+}
+ 
+/* Header Featured Movie Rating */
+#header-featured-movie .movie-rating {
+    position: absolute;
+    top: 385px;
+    left: 180px;
+}
+ 
+#header-featured-movie .movie-rating li {
+    display: block;
+    float: left;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    background: url(../img/star-icon.png) no-repeat 0 0;
+}
+ 
+#header-featured-movie .movie-rating li.rated { background-position: 0 -18px; }
+
+
+/* Header Featured Movie Titles */
+#header-featured-movie h1 {
+    position: absolute;
+    top: 73px;
+    left: 385px;
+}
+ 
+#header-featured-movie h3 {
+    position: absolute;
+    top: 50px;
+    left: 385px;
+}
+ 
+/* Header Featured Movie Paragraph */
+#header-featured-movie p {
+    position: absolute;
+    top: 120px;
+    left: 385px;
+    width: 340px;
+    padding: 20px;
+    background: rgba(0,0,0,.2);
+}
+ 
+/* Header Featured Movie Paragraph Arrow */
+#header-featured-movie p:before {
+    position: absolute;
+    content: '';
+    top: -20px;
+    left: 25px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid rgba(0,0,0,.2);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+/* Header Featured Movie Trailer Slider */
+#header-featured-movie #movie-trailers {
+    position: absolute;
+    overflow: hidden;
+    top: 240px;
+    left: 385px;
+    width: 380px;
+    height: 122px;
+}
+ 
+#header-featured-movie .movie-trailer-slider li {
+    display: block;
+    float: left;
+    width: 172px;
+    height: 122px;
+    margin-right: 36px;
+    background: rgba(0,0,0,.2);
+}
+ 
+#header-featured-movie .movie-trailer-slider li a {
+    display: block;
+    padding: 5px;
+}
+ 
+/* Header Movie Trailers Next & Prev Buttons */
+#header-featured-movie .md-prev-button,
+#header-featured-movie .md-next-button {
+    position: absolute;
+    display: block;
+    width: 11px;
+    height: 14px;
+    top: 295px;
+    left: 360px;
+    background: url(../img/next-prev.png) no-repeat 0 0;
+}
+ 
+#header-featured-movie .md-next-button {
+    left: 780px;
+    background-position: -11px 0;
+}
+
+body { font-family: Helvetica, Arial, sans-serif; }
+ 
+/* Header Top Navigation Menu Links */
+#header .nav li a {
+    font-weight: bold;
+    font-size: 12px;
+    color: #eeeeee;
+    text-shadow: 1px 1px 0px rgba(0,0,0, .6);
+}
+ 
+/* Header Featured Movie Title */
+#header-featured-movie h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #eeeeee;
+    text-shadow: 1px 1px 0px rgba(0,0,0, .6);
+}
+ 
+/* Header Featured Movie Sub-Title */
+#header-featured-movie h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #5293c2;
+}
+ 
+/* Header Featured Movie Paragraph */
+#header-featured-movie p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #979797;
+}
+ 
+/* Header Featured Movie Trailer Title */
+#header-featured-movie .movie-trailer-slider li a h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    color: #979797;
+}
